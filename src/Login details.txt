@@ -1,0 +1,13 @@
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDlWWXQugfYGDWyko4_UKO9wtWCigPay2c",
+    authDomain: "linkit-login.firebaseapp.com",
+    projectId: "linkit-login",
+    storageBucket: "linkit-login.appspot.com",
+    messagingSenderId: "1070594379913",
+    appId: "1:1070594379913:web:bc825d3b7440c7cba5b658"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
