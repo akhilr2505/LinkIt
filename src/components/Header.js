@@ -8,7 +8,7 @@ const Header = ({handleLogOut}) => {
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">L!NK!T</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="/dashboard">DashBoard</Nav.Link>
           <Nav.Link href="#features">Saved Links</Nav.Link>
           <Nav.Link href="#pricing">Profile</Nav.Link>
         </Nav>

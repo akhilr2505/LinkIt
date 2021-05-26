@@ -1,9 +1,10 @@
 import React from "react";
 import BoardComp from "../components/BoardComp";
+import "./boardPage.css"
 
 const boardPage = () => {
   return (
-    <div>
+    <div className="boardd">
       <BoardComp />
     </div>
   );

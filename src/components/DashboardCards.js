@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import BoardComp from "../components/BoardComp";
+import "./DashboardCards.css"
 
 const DashboardCards = (props) => {
   const { Board } = props; // same as -> const user = props.user;
@@ -12,7 +13,7 @@ const DashboardCards = (props) => {
   }
   console.log(Board);
   return (
-    <div>
+    <div className="dash">
       <Card style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Title>{Board.boardName}</Card.Title>

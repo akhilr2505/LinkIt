@@ -1,0 +1,9 @@
+.dash {
+    margin: 30px;
+    border-radius: 15px;
+    flex-direction: row;
+}
+
+Card {
+    border-radius: 15px;
+}

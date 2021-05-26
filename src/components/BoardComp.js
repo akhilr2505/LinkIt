@@ -9,9 +9,9 @@ function BoardComp(props) {
 
   return (
     <div className="App">
-      <div>This is working but data is not passing</div>
       <div>
         <Board
+        className="boardd"
           data={User.boards[0]}
           draggable
           editable

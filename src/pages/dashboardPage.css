@@ -1,0 +1,13 @@
+.dashboardMain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+.cards {
+
+    border-radius: 20px;
+    width: 30vw;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import DashboardCards from "../components/DashboardCards";
+import "./dashboardPage.css"
 
 //Should work i guess try once
 let User = require("../data.json");
