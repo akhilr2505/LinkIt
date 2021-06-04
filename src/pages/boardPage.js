@@ -1,13 +1,12 @@
-import React from "react";
-import BoardComp from "../components/BoardComp";
-import "./boardPage.css"
+// import React from "react";
+// import "./boardPage.css"
 
-const boardPage = () => {
-  return (
-    <div className="boardd">
-      <BoardComp />
-    </div>
-  );
-};
+// const boardPage = () => {
+//   return (
+//     <div className="boardd">
+//       < />
+//     </div>
+//   );
+// };
 
-export default boardPage;
+// export default boardPage;

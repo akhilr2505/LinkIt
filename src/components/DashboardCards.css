@@ -7,3 +7,7 @@
 Card {
     border-radius: 15px;
 }
+
+button span{
+    color:rgba(236, 225, 217, 0.801);
+}

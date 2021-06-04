@@ -6,7 +6,7 @@ const Header = ({handleLogOut}) => {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">L!NK!T</Navbar.Brand>
+        <Navbar.Brand href="/">L!NK!T</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="/dashboard">DashBoard</Nav.Link>
           <Nav.Link href="#features">Saved Links</Nav.Link>

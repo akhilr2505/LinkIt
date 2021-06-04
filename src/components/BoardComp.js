@@ -1,18 +1,19 @@
 import React from "react";
 import Board from "react-trello";
+import { useParams } from "react-router-dom";
 
-let User = require("../data.json");
 
-function BoardComp(props) {
+function BoardComp({User,SetUser}) {
+  const { id } = useParams(); 
+  console.log(User);
 
-  console.log(props.board);
 
   return (
     <div className="App">
       <div>
         <Board
         className="boardd"
-          data={User.boards[0]}
+          data={User.boards[id]}
           draggable
           editable
           id="EditableBoard1"

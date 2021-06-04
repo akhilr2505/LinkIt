@@ -1,25 +1,22 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-import BoardComp from "../components/BoardComp";
 import "./DashboardCards.css"
+import {Link} from "react-router-dom"
 
 const DashboardCards = (props) => {
-  const { Board } = props; // same as -> const user = props.user;
+  const { ident,Board } = props; // same as -> const user = props.user;
 
-  function callcard() {
-    var pass = { Board };
-    console.log(props);
-    return <BoardComp board={pass} />;
-  }
+  
   console.log(Board);
+  console.log(ident);
   return (
     <div className="dash">
       <Card style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Title>{Board.boardName}</Card.Title>
           <Card.Text>{Board.boardDesc}</Card.Text>
-          <Button variant="primary" href="/board" onClick={callcard()}>
-            Go to Board
+          <Button variant="primary">
+           <Link to={"/board/"+ident}><span> Visit Board</span></Link>
           </Button>
         </Card.Body>
       </Card>
