@@ -10,11 +10,13 @@
 {   
     color: #fff;
     justify-content: center;
-    background-color: #03045e;
+    background-color: #03055e;
     border-radius: 25px;
     max-width: 20rem;
     height: 12rem;
-    border: 3px #7e8080 solid;
+    border: 3px #020213 solid;
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.575);
+
 
 }
 

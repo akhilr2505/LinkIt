@@ -22,9 +22,9 @@ button {
   width: 100%;
   min-height: 100vh;
   padding: 0 20px;
-  color: #8EB5CD;
+  color: #89acb3;
   text-shadow: #2D3142;
-  background: #8EB5CD;
+  background: #caf0f8;
   display: flex;
 }
 
@@ -39,7 +39,7 @@ button {
   flex-direction: column;
   justify-content: center;
   background: #cad2c5;
-  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.931);
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.731);
 }
 
 .login .loginContainer label {
@@ -80,7 +80,7 @@ button {
 }
 
 .login .loginContainer .btnContainer p span {
-  color: #22223b;
+  color: #551c8b;
   font-weight: 500;
   letter-spacing: 0.5px;
   margin-left: 5px;

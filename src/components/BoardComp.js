@@ -22,7 +22,7 @@ function BoardComp({User,SetUser}) {
     backgroundColor: '#F1FAEE'
   }}
   style={{
-    backgroundColor: '#d8e2dc'
+    backgroundColor: '#caf0f8'
   }}
           draggable
           editable
