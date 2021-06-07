@@ -1,13 +1,27 @@
+
 .dash {
-    margin: 30px;
-    border-radius: 15px;
-    flex-direction: row;
+        margin: 30px;
+        border-radius: 35px;
+        flex-direction: row;
+        max-width: 20rem;
+        height: 10rem;
+    }
+#card
+{   
+    color: #fff;
+    justify-content: center;
+    background-color: #03045e;
+    border-radius: 25px;
+    max-width: 20rem;
+    height: 12rem;
+    border: 3px #7e8080 solid;
+
 }
 
-Card {
+#button
+{
     border-radius: 15px;
 }
-
-button span{
-    color:rgba(236, 225, 217, 0.801);
-}
+    button span{
+        color:rgba(255, 255, 255, 0.801);
+    }

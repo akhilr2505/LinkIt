@@ -13,7 +13,8 @@ button {
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
-  background: #2943b8;
+  background: #014f86;
+  border-radius: 205px;
   cursor: pointer;
 }
 
@@ -21,8 +22,9 @@ button {
   width: 100%;
   min-height: 100vh;
   padding: 0 20px;
-  color: antiquewhite;
-  background: linear-gradient(to bottom, #32386e, #2971b1);
+  color: #8EB5CD;
+  text-shadow: #2D3142;
+  background: #8EB5CD;
   display: flex;
 }
 
@@ -36,17 +38,17 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(to top, #000428, #004e92);
-  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  background: #cad2c5;
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.931);
 }
 
 .login .loginContainer label {
-  color: #fff;
+  color: #22223b;
   margin: 14px 0;
   display: block;
   font-size: 22px;
   line-height: 1;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.01);
   padding: 15px;
   border-radius: 15px;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -59,10 +61,10 @@ button {
   outline: none;
   font-size: 19px;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  color: #22223b;
   letter-spacing: 1px;
-  border-radius: 2vw;
+  border-radius: 1vw;
 }
 
 .login .loginContainer .btnContainer {
@@ -73,11 +75,12 @@ button {
 .login .loginContainer .btnContainer p {
   margin: 14px 0 0 0;
   text-align: right;
-  color: #fff;
+  color: #22223b;
+  border-radius: 20px;
 }
 
 .login .loginContainer .btnContainer p span {
-  color: #2943b8;
+  color: #22223b;
   font-weight: 500;
   letter-spacing: 0.5px;
   margin-left: 5px;
@@ -97,18 +100,14 @@ button {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: #000428;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #004e92, #000428);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #004e92, #000428);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:#caf0f8;
 
 
 }
 
 .hero nav {
-  background: black !important;
+  background: #2D3142 !important;
   width: 100%;
   padding: 20px 40px;
   display: flex;
@@ -124,5 +123,5 @@ button {
   width: 86px;
   padding: 8px 0;
   border-radius: 8px;
-  background: #000428;
+  background: #4F5D75;
 }

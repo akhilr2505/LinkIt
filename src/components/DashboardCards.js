@@ -1,25 +1,27 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
-import "./DashboardCards.css"
-import {Link} from "react-router-dom"
+import "./DashboardCards.css";
+import { Link } from "react-router-dom";
+import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from 'mdb-react-ui-kit'
 
 const DashboardCards = (props) => {
-  const { ident,Board } = props; // same as -> const user = props.user;
+  const { ident, Board } = props; // same as -> const user = props.user;
 
-  
+
   console.log(Board);
   console.log(ident);
   return (
     <div className="dash">
-      <Card style={{ width: "18rem" }}>
-        <Card.Body>
-          <Card.Title>{Board.boardName}</Card.Title>
-          <Card.Text>{Board.boardDesc}</Card.Text>
-          <Button variant="primary">
-           <Link to={"/board/"+ident}><span> Visit Board</span></Link>
-          </Button>
-        </Card.Body>
-      </Card>
+      <MDBCard id="card"  alignment='center' >
+        <MDBCardBody>
+          <MDBCardTitle>{Board.boardName}</MDBCardTitle>
+          <MDBCardText>{Board.boardDesc}</MDBCardText>
+          <Link to={"/board/" + ident}>
+            <MDBBtn id="button" >
+              Visit Board
+          </MDBBtn>
+          </Link>
+        </MDBCardBody>
+      </MDBCard>
     </div>
   );
 };
